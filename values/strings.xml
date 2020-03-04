@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Bottom Navigation</string>
+
+    <string name="homepage">WELCOME</string>
+    <string name="player_1">sylwek</string>
+    <string name="player_2">LordSMASH</string>
+    <string name="player_3">Jonk</string>
+    <string name="player_4">JAMMES</string>
+    <string name="player_5">badbadbad</string>
+    <string name="dark_wizard">Soul Wizard</string>
+    <string name="dark_lord">Empire Lord</string>
+    <string name="dark_knight">Dragon Knight</string>
+    <string name="slayer">Slaughterer</string>
+    <string name="reset">Reset</string>
+    <string name="rank">Rank</string>
+    <string name="type">Class</string>
+    <string name="player">Name</string>
+    <string name="rank_1">1</string>
+    <string name="rank_2">2</string>
+    <string name="rank_3">3</string>
+    <string name="rank_4">4</string>
+    <string name="rank_5">5</string>
+    <string name="reset_1">356</string>
+    <string name="reset_2">227</string>
+    <string name="reset_3">215</string>
+    <string name="reset_4">182</string>
+    <string name="reset_5">166</string>
+    <string name="rank_title">RANKINGS</string>
+    <string name="char_info">CHARACTER INFORMATION</string>
+    <string name="character">Character</string>
+    <string name="level">Level</string>
+    <string name="character_1">Player1</string>
+    <string name="character_2">Player2</string>
+    <string name="character_3">Player3</string>
+    <string name="level_1">227</string>
+    <string name="level_2">400</string>
+    <string name="level_3">11</string>
+    <string name="char_reset_1">0</string>
+    <string name="char_reset_2">0</string>
+    <string name="char_reset_3">0</string>
+
+</resources>

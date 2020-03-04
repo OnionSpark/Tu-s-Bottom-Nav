@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ranking">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:alpha="0.7"
+            android:background="@drawable/mu_logo" />
+
+        <View
+            style="@style/Divider"
+            android:layout_marginTop="150dp" />
+
+    <TextView
+        android:id="@+id/rank_title"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/rank_title"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        style="@style/Divider"
+        android:layout_marginTop="250dp"
+        android:background="#e8e2ac"/>
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="300dp"
+            android:background="#e8e2ac">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#912626"
+                android:padding="3dp">
+
+                <TextView
+                    style="@style/rank_style"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/cellboder"
+                    android:text="@string/rank" />
+
+                <TextView
+                    style="@style/rank_style"
+                    android:background="@drawable/cellboder"
+                    android:layout_width="120dp"
+                    android:text="@string/player" />
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:text="@string/type"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="@string/reset"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e8e2ac"
+                android:padding="3dp">
+                <TextView
+                    style="@style/rank_style"
+                    android:layout_width="60dp"
+                    android:background="@drawable/cellboder"
+                    android:text="@string/rank_1" />
+
+                <TextView
+                    style="@style/rank_style"
+                    android:background="@drawable/cellboder"
+                    android:layout_width="120dp"
+                    android:text="@string/player_1" />
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:text="@string/dark_lord"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="@string/reset_1"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e8e2ac"
+                android:padding="3dp">
+                <TextView
+                    style="@style/rank_style"
+                    android:layout_width="60dp"
+                    android:background="@drawable/cellboder"
+                    android:text="@string/rank_2" />
+
+                <TextView
+                    style="@style/rank_style"
+                    android:background="@drawable/cellboder"
+                    android:layout_width="120dp"
+                    android:text="@string/player_2" />
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:text="@string/dark_lord"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="@string/reset_2"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e8e2ac"
+                android:padding="3dp">
+                <TextView
+                    style="@style/rank_style"
+                    android:layout_width="60dp"
+                    android:background="@drawable/cellboder"
+                    android:text="@string/rank_3" />
+
+                <TextView
+                    style="@style/rank_style"
+                    android:background="@drawable/cellboder"
+                    android:layout_width="120dp"
+                    android:text="@string/player_3" />
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:text="@string/dark_wizard"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="@string/reset_3"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e8e2ac"
+                android:padding="3dp">
+                <TextView
+                    style="@style/rank_style"
+                    android:layout_width="60dp"
+                    android:background="@drawable/cellboder"
+                    android:text="@string/rank_4" />
+
+                <TextView
+                    style="@style/rank_style"
+                    android:background="@drawable/cellboder"
+                    android:layout_width="120dp"
+                    android:text="@string/player_4" />
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:text="@string/dark_knight"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="@string/reset_4"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e8e2ac"
+                android:padding="3dp">
+                <TextView
+                    style="@style/rank_style"
+                    android:layout_width="60dp"
+                    android:background="@drawable/cellboder"
+                    android:text="@string/rank_5" />
+
+                <TextView
+                    style="@style/rank_style"
+                    android:background="@drawable/cellboder"
+                    android:layout_width="120dp"
+                    android:text="@string/player_5" />
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:text="@string/slayer"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="@string/reset_5"
+                    android:background="@drawable/cellboder"
+                    style="@style/rank_style" />
+            </TableRow>
+        </TableLayout>
+
+
+</FrameLayout>

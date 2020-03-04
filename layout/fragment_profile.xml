@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:alpha="0.7"
+            android:background="@drawable/mu_logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            style="@style/Divider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/char_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/char_info"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.292" />
+
+        <View
+            style="@style/Divider"
+            android:background="#e8e2ac"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/char_info"
+            app:layout_constraintVertical_bias="0.024" />
+
+        <TableLayout
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="240dp"
+            android:layout_marginHorizontal="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e8e9eb"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/character"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    style="@style/char_style"
+                    />
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/level"
+                    android:textStyle="bold"
+                    style="@style/char_style"
+                    />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/reset"
+                    android:textStyle="bold"
+                    style="@style/char_style"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/character_1"
+                    style="@style/char_style"
+                    />
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/level_1"
+                    style="@style/char_style"
+                    />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/char_reset_1"
+                    style="@style/char_style"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e8e9eb"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/character_2"
+                    style="@style/char_style"
+                    />
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/level_2"
+                    style="@style/char_style"
+                    />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/char_reset_2"
+                    style="@style/char_style"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/character_3"
+                    style="@style/char_style"
+                    />
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/level_3"
+                    style="@style/char_style"
+                    />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/char_cellborder"
+                    android:text="@string/char_reset_3"
+                    style="@style/char_style"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_add_black_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
